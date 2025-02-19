@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-filepath = "/home/binku/Documents/Dataset 1 (Activity 3) - Dataset1.csv"
+filepath = "/home/binku/Documents/Dataset 1 (Activity 3) - Dataset1.csv" # PUT THE PATH TO YOUR OWN CSV FILE HERE
 df = pd.read_csv(filepath)
 
 X1 = df['CurrentRatio']
